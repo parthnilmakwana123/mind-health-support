@@ -16,7 +16,7 @@ const GEMINI_CONFIG = {
     // --- Groq Configuration (FREE, ultra-fast, recommended) ---
     // Get your free key at: https://console.groq.com/keys
     GROQ: {
-        API_KEY: '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', // <-- PASTE YOUR GROQ API KEY HERE
+        API_KEY = ' ', // <-- PASTE YOUR GROQ API KEY HERE
         API_URL: 'https://api.groq.com/openai/v1/chat/completions',
         MODEL: 'llama-3.3-70b-versatile', // Best free model for mental health
         CONFIG: {
@@ -28,7 +28,7 @@ const GEMINI_CONFIG = {
 
     // --- Gemini Configuration (fallback) ---
     GEMINI: {
-        API_KEY: 'AIzaSyD5vLlsuQaX0nsr_82bf8d61Yv89zCDiPs',
+        API_KEY: ' ',
         API_URL: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent',
         CONFIG: {
             temperature: 0.7,
